@@ -1,0 +1,5 @@
+package com.centraltec.sdsdeliver.repositories;
+
+public class ProductRepository {
+
+}

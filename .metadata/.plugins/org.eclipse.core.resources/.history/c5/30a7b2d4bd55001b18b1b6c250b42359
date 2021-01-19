@@ -1,0 +1,5 @@
+package com.centraltec.sdsdeliver.dto;
+
+public class OrderDTO {
+
+}

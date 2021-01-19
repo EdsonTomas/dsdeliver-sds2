@@ -1,0 +1,19 @@
+package com.centraltec.sdsdeliver.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.centraltec.sdsdeliver.repositories.ProductRepository;
+
+@Service
+public class ProductService {
+	@Autowired
+	private ProductRepository repo;
+	
+	public List<Product> findAll(){
+		return repo.findAll();
+	}
+	
+	
+	
+}

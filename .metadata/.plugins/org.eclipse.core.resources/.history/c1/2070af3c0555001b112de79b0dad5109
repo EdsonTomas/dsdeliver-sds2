@@ -1,0 +1,5 @@
+package com.centraltec.sdsdeliver.config;
+
+public class SecurityConfig {
+
+}
